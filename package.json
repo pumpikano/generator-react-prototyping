@@ -1,0 +1,31 @@
+{
+  "name": "generator-react-prototyping",
+  "version": "0.0.0",
+  "description": "A generator for client-side javascript experimentation powered by React, ESLint, Express, and Webpack",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "pumpikano/generator-react-prototyping",
+  "author": {
+    "name": "Clayton Mellina",
+    "email": "cemellina@gmail.com",
+    "url": "https://github.com/pumpikano"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2",
+    "underscore.string": "^3.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
